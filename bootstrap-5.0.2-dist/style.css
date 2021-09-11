@@ -1,0 +1,92 @@
+.jumbotron{
+    padding-top: 2rem;
+    background-color: linear-gradient(to right, #00FFFF, #6cb9f5);
+}
+.jumbotron img{
+    height: 100px;
+    width: auto;
+  
+    
+}
+.body{
+    min-height: auto;
+}
+#project{
+    background-color:linear-gradient(to right, #00FFFF, #6cb9f5);
+}
+#navbar{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  
+}
+body
+{
+	background-image: linear-gradient(to right, #00FFFF, #6cb9f5);
+	color: #fff;
+	padding-top: 0%;
+}
+.progress{
+    background-color: rgb(240, 232, 232);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%; 
+}
+.pro-value{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+    
+}
+.progress p{
+    color: white;
+    padding: 12px;
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+    
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+    
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 35%;
+    }
+}
